@@ -1,0 +1,2 @@
+tencentcloud-sdk-python-teo==3.1.4
+tencentcloud-sdk-python-vpc==3.0.1491

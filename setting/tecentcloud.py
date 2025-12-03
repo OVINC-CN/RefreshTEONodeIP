@@ -1,9 +1,9 @@
 import os
 
 # BASE
-SECRET_ID = os.getenv("TENCENTCLOUD_SECRET_ID")
-SECRET_KEY = os.getenv("TENCENTCLOUD_SECRET_KEY")
-REGION = os.getenv("TENCENTCLOUD_REGION", "ap-guangzhou")
+SECRET_ID = os.getenv("SECRET_ID")
+SECRET_KEY = os.getenv("SECRET_KEY")
+REGION = os.getenv("REGION", "ap-guangzhou")
 
 # TEO
 ZONE_IDS = list({i.strip() for i in os.getenv("TEO_ZONE_IDS", "").split(",") if i.strip()})

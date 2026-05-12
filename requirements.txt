@@ -3,5 +3,5 @@ tencentcloud-sdk-python-teo==3.1.4
 tencentcloud-sdk-python-vpc==3.0.1491
 
 # fix cve
-urllib3==2.6.3
+urllib3==2.7.0
 requests>=2.33.0
